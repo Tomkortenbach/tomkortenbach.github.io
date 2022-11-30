@@ -1,0 +1,48 @@
+/* we pick a part of the page, so here body, and then open brackets and write css */
+
+body{
+    text-align: center;
+    padding: 0.5cm;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+h1{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    font-size: 400%;
+/* gradient text color */
+    background: -webkit-linear-gradient(rgb(30, 196, 60), rgb(65, 128, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/* er is een tag toegevoegd in HTML om naar te verwijzen */
+.mystory{
+    background: rgba(245, 245, 245, 0.542);
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Arial;
+    color: #a7a7a7;
+  
+    border-radius: 20px;
+}
+
+/* this gets our boxes next to each other */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150;
+} 

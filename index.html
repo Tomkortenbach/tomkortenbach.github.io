@@ -12,6 +12,9 @@
     <meta name="description" content="I am a strategic design student who loves the mobility and energy sector" />
     <!-- in the title section below you change the word 'document' to your own name -->
     <title>Tom Kortenbach</title>
+
+    <!-- here we link the css to the HTML file -->
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
     <!-- this is where everthing goes that people will see on your website -->
@@ -19,11 +22,22 @@
     <h1>Tom Kortenbach </h1>
     <!-- the following line shows how you can hide code -->
     <!-- <h2>Tom Kortenbach</h2> -->
-    <!-- the following line is an image including a text that shows if the image doesn't load -->
-    <img src="tom_headshot.jpg" alt="headshot of Tom Kortenbach" width="300"/>
 
-    <p>Hi I'm Tom, a strategic designer with a special interest in the mobility and energy sector. I am currently in my first year of the Strategic Design Master of Industrial Design in Delft</p>
-    <p>Testing branch</p>
+<!-- use div to create boxes for visual placing of these elements -->
+
+<div class="container">
+
+    <div class="image">
+
+    <!-- the following line is an image including a text that shows if the image doesn't load -->
+    <img src="tom_headshot.jpg" alt="headshot of Tom Kortenbach" class="center" width="100"/>
+
+    </div>
+
+    <div class="paragraphs">
+
+    <p class="mystory"> 
+        Hi I'm Tom, a strategic designer with a special interest in the mobility and energy sector. I am currently in my first year of the Strategic Design Master of Industrial Design in Delft</p>
     <p>
         <!-- here we create word-buttons that link you towards another link or doc. -->
         <!-- <a is the command to create a link to a file/link -->
@@ -33,6 +47,11 @@
         <a href="./CV_Tom_Kortenbach.pdf" target="_blank">CV</a>
         <a href="mailto:tomkortenbach@icloud.com">email</a>
     </p>
+
+    </div>
+
+</div>
+
 </body>
 </html>
 <!-- end of HTML  no more code after this -->
